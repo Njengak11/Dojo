@@ -9,6 +9,7 @@ const BlogList = ({blogs,title}) => {
                 <div className='blog-preview' key={blogs.id}>
                     <h2>{blog.title}</h2>
                     <p>Writeen by {blog.author}</p>
+                   
                 </div>
             ))}
         </div>
